@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<!-- start right frame -->
+<head>
+<title>~[text:psx.html.admin_students.emergency.emergency_contactmedical]</title>
+~[wc:commonscripts]
+<link href="/images/css/screen.css" rel="stylesheet" media="screen">
+<link href="/images/css/print.css" rel="stylesheet" media="print">
+<script language="JavaScript" src="/admin/JavaScript/phoneNumber.js"></script>
+</head>
+
+<body>
+
+<form action="/admin/changesrecorded.white.html" method="POST">
+~[wc:admin_header_frame_css]<!-- breadcrumb start --><a href="/admin/home.html" target="_top">~[text:psx.html.admin_students.emergency.start_page]</a> &gt; <a href="home.html?selectstudent=nosearch">~[text:psx.html.admin_students.emergency.student_selection]</a> &gt; <a href="/admin/students/emergency.html" >~[text:psx.html.admin_students.emergency.emergency_contactmedical1] </a> &gt; Hearing<!-- breadcrumb end -->~[wc:admin_navigation_frame_css]
+
+~[wc:title_student_begin_css]~[text:psx.html.admin_students.emergency.emergency_contactmedical2]~[wc:title_student_end_css]
+
+<!-- start of content and bounding box -->
+<div class="box-round">
+
+<table border="0" cellspacing="0" cellpadding="4">
+
+
+
+
+<table width="73%" border="0" cellpadding="4" cellspacing="0">
+    <tr>
+      <td colspan="4" bgcolor="#edf3fe" class="bold"> <div align="center"><b><font face="Verdana,Geneva,Arial,Helvetica,sans-serif" size="-1">Send
+        Referral?
+        <select name="[01]Med_hearref" id="[01]Med_hearref">
+          <option></option>
+          <option value="Yes">Yes</option>
+          </select>
+        Date Refer</font></b><b><font face="Verdana,Geneva,Arial,Helvetica,sans-serif" size="-1">ral
+          sent <i> (MM/DD/YYYY)</i></font></b><b><font face="Verdana,Geneva,Arial,Helvetica,sans-serif" size="-1">
+            <input name="[01]med_hearref_date" type="text" id="[01]med_hearref_date" value="" size="12">
+            </font></b></div></td>
+      </tr>
+    <tr>
+      <td colspan="4" class="bold"><div align="center"><b><font face="Verdana,Geneva,Arial,Helvetica,sans-serif" size="-1">Testing
+        Status</font></b>
+        <select name="[01]Hear_status" id="[01]Hear_status">
+          <option></option>
+          <option value="Completed">Completed</option>
+          <option value="Retest">Retest</option>
+          </select>
+        <b><font face="Verdana,Geneva,Arial,Helvetica,sans-serif" size="-1">Hearing
+          Impairment</font></b>
+        <select name="[01]Hear_impair" id="[01]Hear_impair">
+          <option> </option>
+          <option value="S">Sensorineural</option>
+          <option value="C">Conductive</option>
+          <option value="A">Auditory Processing</option>
+          </select>
+        </div></td>
+      </tr>
+    <tr>
+      <td width="20%" bgcolor="#edf3fe" class="bold"> <div align="center"><font size="-2"></font><font size="-2"></font></div></td>
+      <td colspan="2" bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=+1><b>PURE
+        TONES</b></font><font size="-2"></font></div></td>
+      <td bgcolor="#edf3fe" class="bold">&nbsp;</td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><i><b>Grade</b></i></font></div></td>
+      <td width="12%" class="bold"> <div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1 font color="red"><b>Right</b></font><font size="-2"><b></b></font></div></td>
+      <td width="12%" class="bold"> <div align="center"><font size="-2" face="Verdana, Arial, Helvetica, sans-serif"></font><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1 font color="blue"><b>Left</b></font><font size="-2"><b></b></font></div></td>
+      <td width="12%" class="bold"> <div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><i><b>Date</b></i></font><font size="-2" face="Verdana, Arial, Helvetica, sans-serif"></font></div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>K</b></font><font size="-2"></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_0" id="[01]Hear_r_PT_0">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_0" id="[01]Hear_l_PT_0">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <input name="[01]Hear_Date0" type="text" id="[01]Hear_Date0" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>1st</b></font></div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_1" id="[01]Hear_r_PT_1">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_1" id="[01]Hear_l_PT_1">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <input name="[01]Hear_Date1" type="text" id="[01]Hear_Date1" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>2nd</b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_2" id="[01]Hear_r_PT_2">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_2" id="[01]Hear_r_PT_2">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <input name="[01]Hear_Date2" type="text" id="[01]Hear_Date2" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>3rd</b></font></div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_3" id="[01]Hear_r_PT_3">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_3" id="[01]Hear_l_PT_3">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <input name="[01]Hear_Date3" type="text" id="[01]Hear_Date3" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>4th</b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_4" id="[01]Hear_r_PT_4">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_4" id="[01]Hear_l_PT_4">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <input name="[01]Hear_Date4" type="text" id="[01]Hear_Date4" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>5th</b></font></div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_5" id="[01]Hear_r_PT_5">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_5" id="[01]Hear_l_PT_5">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <input name="[01]Hear_Date5" type="text" id="[01]Hear_Date5" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>6th</b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_6" id="[01]Hear_r_PT_6">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_6" id="[01]Hear_l_PT_6">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <input name="[01]Hear_Date6" type="text" id="[01]Hear_Date6" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>7th</b></font></div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_r_PT_7" id="[01]Hear_r_PT_7">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <select name="[01]Hear_l_PT_7" id="[01]Hear_l_PT_7">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <input name="[01]Hear_Date7" type="text" id="[01]Hear_Date7" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>8th</b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font size="-2"><b>
+        <select name="[01]Hear_r_PT_8" id="[01]Hear_r_PT_8">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font size="-2"><b>
+        <select name="[01]Hear_l_PT_8" id="[01]Hear_l_PT_8">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <input name="[01]Hear_Date8" type="text" id="[01]Hear_Date8" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>9th</b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font size="-2">
+        <select name="[01]Hear_r_PT_9" id="[01]Hear_r_PT_9">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </font></div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font size="-2">
+        <select name="[01]Hear_l_PT_9" id="[01]Hear_l_PT_9">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </font></div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <input name="[01]Hear_Date9" type="text" id="[01]Hear_Date9" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>10th</b></font></div></td>
+      <td class="bold"> <div align="center">
+        <select name="[01]Hear_r_PT_10" id="[01]Hear_r_PT_10">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <select name="[01]Hear_l_PT_10" id="[01]Hear_l_PT_10">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <input name="[01]Hear_Date10" type="text" id="[01]Hear_Date10" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>11th</b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <select name="[01]Hear_r_PT_11" id="[01]Hear_r_PT_11">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <select name="[01]Hear_l_PT_11" id="[01]Hear_l_PT_11">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <input name="[01]Hear_Date11" type="text" id="[01]Hear_Date11" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>12th</b></font></div></td>
+      <td class="bold"> <div align="center">
+        <select name="[01]Hear_r_PT_12" id="[01]Hear_r_PT_12">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_12" id="[01]Hear_l_PT_12">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td class="bold"> <div align="center">
+        <input name="[01]Hear_Date12" type="text" id="[01]Hear_Date12" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td bgcolor="#edf3fe" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=-1><b>Other
+        Grd
+        <select name="[01]Hearextra_grd" id="[01]Hearextra_grd">
+          <option selected> </option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          </select>
+        </b></font></div></td>
+      <td bgcolor="#edf3fe" class="bold"> <div align="center">
+        <select name="[01]Hear_r_PT_extra" id="[01]Hear_r_PT_extra">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <select name="[01]Hear_l_PT_extra" id="[01]Hear_l_PT_extra">
+          <option selected>
+            <option value="Pass">Pass</option>
+          <option value="Refer">Refer</option>
+          </select>
+        </div></td>
+      <td bgcolor="#edf3fe" class="bold"><div align="center">
+        <input name="[01]Hear_Dateextra" type="text" id="[01]Hear_Dateextra" value="" size="12">
+        </div></td>
+      </tr>
+    <tr>
+      <td colspan="4" class="bold"><div align="center"><font face=Verdana,Geneva,Arial,Helvetica,sans-serif size=+1 ><b><i>Comments:</i></b></font><font face="Verdana,Geneva,Arial,Helvetica,sans-serif" size="-1">
+        <textarea name="[01]hear_Comments" cols="80" rows="4"></textarea>
+        &nbsp;</font><font color="#FF3333"><b></b></font></div></td>
+      </tr>
+<tr>
+</tr>
+
+    <!-- Start insert state specific section information -->
+    ~[x:insertfile;state/demographics~[displaypref:districtstate].html]
+    <!-- End insert state specific section information -->
+
+
+    </table>
+
+
+
+
+
+
+
+
+<!-- Start insert state specific section information -->
+~[x:insertfile;state/emergency~[displaypref:districtstate].html]
+<!-- End insert state specific section information -->
+</table>
+<br>
+
+<div class="button-row"><input type="hidden" name="ac" value="prim">~[submitbutton]</div>
+</div>
+<br>
+<!-- end of content of bounding box -->
+
+~[wc:admin_footer_frame_css]
+</form>
+
+</body>
+</html><!-- end right frame -->
