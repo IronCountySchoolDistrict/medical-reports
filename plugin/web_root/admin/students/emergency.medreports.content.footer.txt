@@ -5,4 +5,4 @@
     </tr>
 </script>
 
-<script src="/scripts/MedicalReports/medreport.js"></script>
+<script src="/medical-reports/main.js"></script>

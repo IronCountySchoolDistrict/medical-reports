@@ -1,0 +1,19 @@
+{
+  "name": "medical-reports",
+  "version": "1.0.0",
+  "description": "Adds links to medical reports on the Emergency/Medical Students page",
+  "main": "",
+  "scripts": {
+    "test": "mocha-casperjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronCountySchoolDistrict/medical-reports.git"
+  },
+  "author": "IronCountySchoolDistrict",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IronCountySchoolDistrict/medical-reports/issues"
+  },
+  "homepage": "https://github.com/IronCountySchoolDistrict/medical-reports#readme"
+}
