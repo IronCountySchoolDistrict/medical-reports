@@ -5,4 +5,4 @@
     </tr>
 </script>
 
-<script src="<!-- @echo IMAGE_SERVER_URL -->/medical-reports/js/main.js"></script>
+<script src="/scripts/medical-reports/js/main.js"></script>
