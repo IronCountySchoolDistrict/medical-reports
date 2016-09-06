@@ -1,8 +1,19 @@
-<script type="text/template" id="template">
-    <tr style="background-color: #edf3fe;">
-        <td colspan="2" align="center"><a href="hearingmain.html?frn=~(studentfrn)"><b>Hearing Test</b></a>&nbsp;</td>
-        <td></td>
-    </tr>
-</script>
+<script>
+  if (!psData) {
+    var psData = {};
+  }
+  if (!psData.studentdcid) {
+    psData.studentdcid = '~(studentfrn)'.slice(3);
+  }
 
-<script src="/scripts/medical-reports/js/main.js"></script>
+  require.config({
+    paths: {
+      'hearingTest': '/scripts/medical-reports/js/hearing-test',
+      'fetch': 'https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch'
+    }
+  });
+
+  require(['hearingTest', 'fetch'], (hearingTest) => {
+    hearingTest.default();
+  });
+</script>
