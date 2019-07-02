@@ -8,8 +8,8 @@
 
   require.config({
     paths: {
-      'hearingTest': '/scripts/medical-reports/js/hearing-test',
-      'fetch': 'https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch'
+      hearingTest: '/scripts/medical-reports/js/hearing-test',
+      fetch: 'https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch'
     }
   });
 
